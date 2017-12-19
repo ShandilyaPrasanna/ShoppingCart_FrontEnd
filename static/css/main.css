@@ -1,0 +1,37 @@
+/* you can add any styles you think could improve user's experience */
+.cart-wrapper {
+    display: flex;
+     margin-top: 50px;
+    margin-bottom: 10px;
+}
+.list-wrapper {
+    display: flex;
+    margin-top: 30px;
+    position: fixed;
+}
+
+
+.image-wrapper {
+    margin-left: 9%;
+}
+.total {
+    background-color: green;
+    color: white;
+}
+
+a {
+    cursor: pointer;
+    color: red;
+    border: solid 1px black; 
+    display: block;
+}
+
+.container {
+    height: auto !important;
+    min-height: 100%;
+    overflow: hidden;
+	background: white;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+    font-size: 16px;
+}
