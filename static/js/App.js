@@ -69,7 +69,7 @@ const mapStateToProps = (state) => {
     };
   };
 
-const mapDispatchToProps = (dispatch) => {
+const matchDispatchToProps = (dispatch) => {
    return bindActionCreators({
       	getAllProducts,
         addToBucket,
@@ -77,4 +77,4 @@ const mapDispatchToProps = (dispatch) => {
    },dispatch)
 };
 
-export default connect(mapStateToProps,mapDispatchToProps)(App);
+export default connect(mapStateToProps,matchDispatchToProps)(App);
